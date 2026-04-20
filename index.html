@@ -12,7 +12,7 @@
     <title>TechWave</title>
 
 </head>
-<body class="w-[1272px] max-w-7xl">
+<body class="w-full max-w-[1272px] mx-auto">
 
     <header class="flex w-full h-12 bg-[#1A0B2E] justify-between  pt-1.5 pl-7 pr-7 ">
 
@@ -42,7 +42,32 @@
         <img class=" items-center justify-center  p-1" src="./assets/ArrowRight.png" alt="">
         </button>
     </header>
-    <main></main>
+    <main class="w-full">
+        <hr class="border-gray-500">
+
+        <section class="relative  w-full  min-h-[550px] bg-cover bg-center bg-no-repeat"
+        style="background-image: url('./assets/hero-bg.png')"><!--this type of style attribute is very important.this sets the image as a background  and you could not see any images if these clases are not defined properly-->
+
+          <div class="absolute inset-0 flex items-center justify-center">
+            
+            
+            <div class="relative -translate-y-[79px]">
+
+                <img src="./assets/hero-circle.png" alt="circle"
+                 class="w-68 h-65 ">
+
+                 <img src="./assets/microphone.png" alt="mic"
+                  class="absolute inset-0 m-auto ">
+            </div>
+            <div class=" absolute top-20 right-130 text-xs z-50 bg-[#03fa52] w-[45px] h-6 place-items-center rounded-lg pt-1 p-1.4">
+                <h2 class="text-1xl text-gray-700">NEW</h2>
+            </div>
+
+          </div>
+
+
+        </section>
+    </main>
     <footer></footer>
 </body>
 </html>
