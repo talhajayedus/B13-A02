@@ -38,20 +38,20 @@
         <button class="rounded-[17px] w-[115px] p-[5px]  h-[33px] text-white font-medium border-none bg-linear-to-tr
          from-[#F7E93F]
           via-[#FB09B4]
-           to-[#9100F8] flex   gap-1">subscribe 
+           to-[#9100F8] flex justify-evenly ">subscribe 
         <img class=" items-center justify-center  p-1" src="./assets/ArrowRight.png" alt="">
         </button>
     </header>
     <main class="w-full">
         <hr class="border-gray-500">
+                   <!--hero bg,mic,circle and batch section-->
+        <section class="relative  w-full  min-h-[550px] bg-cover bg-center bg-no-repeat "
+        style="background-image: url('./assets/hero-bg.png')"><!--this type of style attribute is very important.this sets the image as a background  and you could not see any images if these classes are not defined properly-->
 
-        <section class="relative  w-full  min-h-[550px] bg-cover bg-center bg-no-repeat"
-        style="background-image: url('./assets/hero-bg.png')"><!--this type of style attribute is very important.this sets the image as a background  and you could not see any images if these clases are not defined properly-->
-
-          <div class="absolute inset-0 flex items-center justify-center">
+          <div class="absolute inset-0 flex  flex-col items-center justify-center h-full gap-4">
             
             
-            <div class="relative -translate-y-[79px]">
+            <div class="relative translate-y-0">
 
                 <img src="./assets/hero-circle.png" alt="circle"
                  class="w-68 h-65 ">
@@ -59,9 +59,32 @@
                  <img src="./assets/microphone.png" alt="mic"
                   class="absolute inset-0 m-auto ">
             </div>
-            <div class=" absolute top-20 right-130 text-xs z-50 bg-[#03fa52] w-[45px] h-6 place-items-center rounded-lg pt-1 p-1.4">
+
+            <div class=" absolute top-20 right-130 text-xs z-50 bg-[#03fa52] w-[45px] h-6 place-items-center rounded-xl pt-1 p-1.4">
                 <h2 class="text-1xl text-gray-700">NEW</h2>
             </div>
+
+          <!--deleted a div closing tag-->
+
+
+                  <!--hero heading,and button section-->
+                  
+
+           <h1 class="text-6xl font-extrabold text-white">TechWave</h1>
+
+    <p class="text-[16px] text-white">
+        Your daily dose of tech insights, productivity hacks, and personal growth
+    </p>
+
+    <div class="flex gap-4">
+        <button class="rounded-3xl w-[200px] p-[5px] text-white font-medium bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] flex justify-evenly ">
+            <img src="./assets/spotify.png" class="p-1">Listen on Spotify
+        </button>
+
+        <button class="bg-transparent flex rounded-3xl w-[150px] p-[5px] text-[#00FF88] border border-[#00FF88] justify-evenly ">
+            <img src="./assets/message.png" class="p-1">Subscribe
+        </button>
+        </div>
 
           </div>
 
