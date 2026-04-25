@@ -44,8 +44,9 @@
     </header>
     <main class="w-full">
         <hr class="border-gray-500">
+
                    <!--hero bg,mic,circle and batch section-->
-        <section class="relative  w-full  min-h-[550px] bg-cover bg-center bg-no-repeat "
+        <section class="relative  w-full  min-h-screen bg-cover bg-center bg-no-repeat "
         style="background-image: url('./assets/hero-bg.png')"><!--this type of style attribute is very important.this sets the image as a background  and you could not see any images if these classes are not defined properly-->
 
           <div class="absolute inset-0 flex  flex-col items-center justify-center h-full gap-4">
@@ -60,37 +61,146 @@
                   class="absolute inset-0 m-auto ">
             </div>
 
-            <div class=" absolute top-20 right-130 text-xs z-50 bg-[#03fa52] w-[45px] h-6 place-items-center rounded-xl pt-1 p-1.4">
-                <h2 class="text-1xl text-gray-700">NEW</h2>
+            <div 
+            class=" absolute
+                    top-20 right-130
+                     text-xs
+                      z-50
+                       bg-[#03fa52]
+                        w-[45px] h-6 
+                        place-items-center
+                         rounded-xl
+                          pt-1 p-1.4">
+            <h2 
+            class="text-1xl
+             text-gray-700">NEW</h2>
             </div>
 
-          <!--deleted a div closing tag-->
 
 
-                  <!--hero heading,and button section-->
+                  <!--hero heading,and button-->
                   
 
            <h1 class="text-6xl font-extrabold text-white">TechWave</h1>
 
-    <p class="text-[16px] text-white">
-        Your daily dose of tech insights, productivity hacks, and personal growth
-    </p>
+           <p class="text-[16px]  text-gray-300">
+              Your daily dose of tech insights, productivity hacks, and personal growth
+          </p>
 
     <div class="flex gap-4">
         <button class="rounded-3xl w-[200px] p-[5px] text-white font-medium bg-linear-to-tr from-[#F7E93F] via-[#FB09B4] to-[#9100F8] flex justify-evenly ">
             <img src="./assets/spotify.png" class="p-1">Listen on Spotify
         </button>
 
-        <button class="bg-transparent flex rounded-3xl w-[150px] p-[5px] text-[#00FF88] border border-[#00FF88] justify-evenly ">
-            <img src="./assets/message.png" class="p-1">Subscribe
+         <button class="bg-transparent flex rounded-3xl w-[150px] p-[5px] text-[#00FF88] border  border-[#00FF88] justify-evenly ">
+              <img src="./assets/message.png" class="p-1">Subscribe
         </button>
         </div>
 
           </div>
+        </section> 
 
+    </main>
+
+    <!--about the podcast section-->
+
+    <section class=" bg-[#1A0B2E] items-center text-center justify-center   "> <br> <br>
+            
+         
+            <h1 class="text-4xl font-extrabold text-white">About the Podcast</h1>
+
+            <p class="text-[16px] text-gray-300">
+             TechWave is your go-to podcast for staying ahead in the fast-paced world of technology. <br>We break down complex topics into digestible insights, explore productivity strategies that actually work, <br> and share stories of personal growth from industry leaders. <br> <br>
+
+             Join thousands of young professionals and tech enthusiasts who start their day with TechWave.
+
+            </p>
+
+            <hr class="border-gray-700 place-items-center w-[900px] ml-44 mr-44 mt-20">
+
+             <div class="grid  lg:grid-cols-4 md:grid-cols-4 sm:gris-cols-2 mt-14  ">
+
+                <div class="">
+                    <h2 class="text-[#03fa52] text-4xl font-extrabold">150K+</h2>
+                    <p class=" text-gray-300 text-[16px] font-normal">Monthly Listeners</p>
+                </div>
+                <div class="">
+                    <h2 class="text-[#03fa52] text-4xl font-extrabold">200+</h2>
+                    <p class=" text-gray-300 text-[16px]  font-normal">Episodes Published</p>
+                </div>
+                <div class="">
+                    <h2 class="text-[#03fa52] text-4xl font-extrabold">4.9 ★</h2>
+                    <p class=" text-gray-300 text-[16px]  font-normal">Average Rating</p>
+                </div>
+                <div class="">
+                    <h2 class="text-[#03fa52] text-4xl font-extrabold">50+</h2>
+                    <p class=" text-gray-300 text-[16px]  font-normal">Industry Experts</p>
+                </div>
+
+             </div> <br> <br>
+
+           
+        </section>
+
+        <!--why choose techwave section-->
+        <section  class=" bg-[#230E3D]"> <br> <br>
+
+            <h1 class="text-4xl text-center font-extrabold  text-white">Why Choose TechWave</h1> <br>
+
+             <section class="grid grid-cols-3 grid-rows-3  mr-[236px] ml-[236px] gap-4">
+
+                <div class="bg-[#351165] row-span-2 rounded-3xl p-3 ">
+
+                    <img class="p-2" src="./assets/headphone.png" alt="">
+
+                    <h3 class="text-2xl p-2  text-white">Premium Audio Quality</h3>
+
+                    <p class=" text-gray-400 text-[16px] p-2 font-small">Experience crystal-clear sound with professional-grade recording equipment and expert audio engineering. Every episode is mastered for optimal listening across all devices and platforms.professional-grade recording equipment and expert audio  Our host secures exclusive conversations you won't find anywhere else.</p>
+
+                </div>
+
+                <div class="bg-[#351165] col-span-2 rounded-3xl p-3">
+
+                    <img class="p-2" src="./assets/device.png" alt="">
+
+                    <h3 class="text-2xl p-2 text-white">Mobile Friendly</h3>
+
+                    <p class=" text-gray-400 text-[16px] p-2 font-small">Listen on the go with seamless mobile experience and offline downloads. Our host secures exclusive conversations you won't find.</p>
+
+                </div>
+
+                <div class="bg-[#351165]  col-span-2 rounded-3xl p-3">
+
+                    <img class="p-2" src="./assets/location.png" alt="">
+
+                    <h3 class="text-2xl  p-2 text-white">Global Community</h3>
+
+                    <p class=" text-gray-400 text-[16px] p-2 font-small">Connect with tech enthusiasts from over 120 countries worldwide  Our host secures exclusive conversations you won't find anywhere else.</p>
+                </div>
+
+                <div class="bg-[#351165] col-span-2 rounded-3xl p-3">
+
+                    <img class="p-2" src="./assets/exclusive.png" alt="">
+
+                    <h3 class="text-2xl p-2   text-white">Exclusive Interviews</h3>
+
+                    <p class=" text-gray-400 text-[16px] p-2 font-small">Get unprecedented access to industry titans, startup founders, and tech visionaries. Our host secures exclusive conversations you won't find anywhere else, diving deep into their journeys, failures, and success strategies.</p>
+
+                </div>
+
+                <div class="bg-[#351165] rounded-3xl p-3">
+
+                    <img class="p-2" src="./assets/resource.png" alt="">
+
+                    <h3 class="text-2xl p-2 text-white">Rich Resources</h3>
+
+                    <p class=" text-gray-300 text-[16px] p-2 font-normal">Access show notes, transcripts, and additional learning materials for every episode.</p>
+
+                </div>
+
+             </section>
 
         </section>
-    </main>
     <footer></footer>
 </body>
 </html>
